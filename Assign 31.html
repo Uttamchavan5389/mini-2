@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,tr,td{
+                padding: 5px;
+                text-align: center;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <table>
+            <caption><h3>STUDENT LIST</h3></caption>
+            <thead>
+            <tr>
+            <th rowspan="2">Heading</th>
+            <th>Student</th>
+            <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll Number</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                       <td rowspan="4">student List</td>
+                       <td>1</td>
+                       <td>Victor</td>
+                       <td>Computer Science</td>
+                       <td>12345</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Williams</td>
+                    <td>Electronics</td>
+                    <td>23456</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Harry</td>
+                    <td>Electricals</td>
+                    <td>34567</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rick</td>
+                    <td>Civil</td>
+                    <td>45678</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    
+    <center>
+        <table style="background-color: rgb(201, 162, 237);">
+            <caption><h3>COLLEGE TIME TABLE</h3></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>8:30-9:30</th>
+                    <th>9:30-10:30</th>
+                    <th>10:30-11:30</th>
+                    <th>11:30-12:30</th>
+                    <th>12:30-02:00</th>
+                    <th>02:00-03:00</th>
+                    <th>03:00-04:00</th>
+                    <th>04:00-05:00</th>
+                </tr>
+                <tr>
+                    <Th>Monday</th>
+                    <td><center>---</center></td>
+                    <td>SUB1</td>
+                    <td>SUB2</td>
+                    <td>SUB3</td>
+                    <td rowspan="6"><center>L<br>U<br>N<br>C<br>H<br></center></td>
+                    <td>SUB4</td>
+                    <td>SUB5</td>
+                    <td>Counselling Class</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>SUB1</td>
+                    <td>SUB2</td>
+                    <td>SUB3</td>
+                    <td><CENTER>---</CENTER></td>
+                    <td>SUB4</td>
+                    <td>SUB5</td>
+                    <td>Library</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td>SUB1</td>
+                    <td>SUB2</td>
+                    <td>SWA</td>
+                    <td><CEnter>---</CEnter></td>
+                    <td colspan="3"><center>Lab</center></td>
+                    <tr>
+                        <th>Thurday</th>
+                        <td>SUB1</td>
+                        <td>SUB2</td>
+                        <td>SUB3</td>
+                        <td><center>---</center></td>
+                        <td>SUB4</td>
+                        <td>SUB5</td>
+                        <td>Library</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>SUB1</td>
+                        <td>SUB2</td>
+                        <td>SUB3</td>
+                        <td><center>---</center></td>
+                        <td>SUB4</td>
+                        <td>SUB5</td>
+                        <td>Library</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>SUB1</td>
+                        <td colspan="3"><center>Seminar</center></td>
+                        <td>SUB4</td>
+                        <td>SUB5</td>
+                        <td>Library</td>
+                    </tr>
+
+                </tr>
+            </thead>
+        </table>
+    </center>
+    </body>
+</html>
+
+
+<br><br><br>
+
+
+<center><br><br><br><br><br></center>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <caption><H2>Travel Reservation Form</H2></caption>
+    <form>
+    <label>Full Name*: <br>
+        <input type="text" placeholder="First Name Last Name" required><br>
+        <br>
+        Email address*: <br>
+        <input type="text" placeholder="Email address" required><br>
+        <br>
+        Select Tour Package*: <br>
+       <select id="Select" required><br>
+       <option value="option">Select</option>
+       <option value="option">Hyderabad</option>
+       <option value="option">Delhi</option>
+       <option value="option">Goa</option>
+       <option value="option">Karantaka</option>
+       <option value="option">Jammu and Kashmir</option>
+       <option value="option">Odrisa</option>
+       </select> <br>
+       <br>
+       Arrival Date*: <br>
+       <input type="Date" placeholder="DD/MM/YY" required><br>
+       <br>
+       Number of Persons*: <br>
+       <input type="Number" placeholder="Unknown Type" required><br>
+       <br>
+       What would you want to avail?*: <br>
+       Boarding <input type="checkbox"><br>
+       Fooding<input type="checkbox"><br>
+       Sight Seeing<input type="checkbox"><br>
+       <br>
+       Discout Coupon Code: <br>
+       <input type="Coupon Code"placeholder="&nbsp;           Unknown Type"> <br>
+       <br>
+       Terms and Conditions*: <br>
+       <input type="radio"> I agree <br>
+      <center><input type="radio">&nbsp;  I Disagree </center><br>
+       <br>
+       <button style="background-color: rgb(184, 12, 12); color: rgb(239, 239, 239);">Complete Reservation</button>
+       </center>
+    </label> 
+    </form>
+</body>
+</html>
